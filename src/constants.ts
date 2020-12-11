@@ -175,7 +175,13 @@ export const PAIR_ADDRESSES: { [chainId: string]: PairAddresses } = {
       '0xdA2853b2BEde0E3018f56d47624A413B2abe0831', // sUSD
       '0xa614f803B6FD780986A42c78Ec9c7f77e6DeD13C', // USDT
       '0x170ddac94981c839aa67eb019bda4ae63b450809' // Pair
-    ]
+    ],
+    [
+      // sUSD/OKS
+      '0xdA2853b2BEde0E3018f56d47624A413B2abe0831', // sUSD
+      '0xE11cDc164a9D8C1aE19D95B0165278690D39d84B', // OKS
+      '0x2438696c7c02e9e32a800314c3d4476a841ed2af' // Pair
+    ]    
   ]),
   [ChainId.SHASTA]: {}
 }
